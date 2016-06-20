@@ -1,0 +1,58 @@
+body {
+	color: #555;
+}
+h1 {
+	color: #444;
+	font-size: 2.5em;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+h2 {
+	font-size: 2em;
+}
+.navbar-default .navbar-brand {
+	color: #333;
+	font-size: 2.5em;
+}
+.row {
+	padding: 15px;
+}
+.content {
+	background-color: #ddd;
+}
+
+#bs-example-navbar-collapse-1 {
+	padding: 0;
+}
+
+.navbar {
+	background-color: #aaa;
+}
+.navbar-collapse {
+	background-color: #eee;
+}
+
+.navbar-collapse a {
+	color: #fff;
+}
+
+.navbar-nav {
+	margin: 0 auto;
+}
+
+.navbar-nav li {
+	border-bottom: 1px solid #aaa;
+}
+.navbar-nav li:last-child {
+	border-bottom: none;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	background-color: #ccc;
+}
+
+@media (min-width: 768px) {
+	.navbar-collapse {
+		background-color: transparent;
+	}
+}
