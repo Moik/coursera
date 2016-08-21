@@ -53,7 +53,7 @@ function handleResponse(request,
       responseHandler(JSON.parse(request.responseText));
     }
     else {
-      console.log("is it works?");
+      responseHandler(request.responseText);
     }
   }
 }
